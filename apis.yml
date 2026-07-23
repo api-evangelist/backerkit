@@ -1,22 +1,79 @@
 aid: backerkit
 name: Backerkit
-description: Backerkit is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BackerKit is a crowdfunding and pledge-management platform for professional
+  creators. It began as backer-survey and data-management software that helps
+  creators who funded projects on Kickstarter and Indiegogo collect shipping
+  addresses, sell add-ons and pre-orders, charge cards, and manage backer data
+  for reward fulfillment. It has since grown into a full crowdfunding platform
+  of its own, powering campaigns end to end and, in 2024, roughly one in every
+  four dollars raised on Kickstarter. BackerKit is a Y Combinator company. It
+  exposes integration API keys (API key, secret, and Store GUID) so creators can
+  connect fulfillment services such as ShipStation, but it does not publish a
+  public, self-serve developer API, OpenAPI definition, or SDKs; developer
+  access is account-scoped and configured inside the BackerKit dashboard.
 url: https://raw.githubusercontent.com/api-evangelist/backerkit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/backerkit
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Crowdfunding
+- Pledge Management
+- Fulfillment
+- Creator Economy
+- Payments
+- E-Commerce
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.backerkit.com/
+- type: Support
+  url: https://help.backerkit.com/
+- type: HelpCenter
+  url: https://help.backerkit.com/
+- type: Pricing
+  url: https://www.backerkit.com/pricing
+- type: Blog
+  url: https://www.backerkit.com/blog/
+- type: SignUp
+  url: https://www.backerkit.com/c/users/sign_in
+- type: TermsOfService
+  url: https://www.backerkit.com/terms_of_service
+- type: PrivacyPolicy
+  url: https://www.backerkit.com/privacy_policy
+- type: GitHubOrganization
+  url: https://github.com/backerkit
+- type: StatusPage
+  url: https://status.backerkit.com
+- type: DomainSecurity
+  url: security/backerkit-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
