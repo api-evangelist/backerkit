@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/backerkit/integrations
+- https://n8n.io/integrations/backerkit/
+- https://composio.dev/toolkits/backerkit
+- https://monid.ai/tools/backerkit
+checked:
+- https://composio.dev/toolkits/backerkit
+- https://monid.ai/tools/backerkit
+- https://n8n.io/integrations/backerkit/
+- https://zapier.com/apps/backerkit/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
