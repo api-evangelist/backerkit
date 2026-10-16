@@ -2,10 +2,10 @@
   "repo": "backerkit",
   "feeds": [
     {
-      "source": "https://www.backerkit.com/pricing",
-      "feed_url": "https://www.backerkit.com/blog.rss",
+      "source": "https://www.backerkit.com/blog/",
+      "feed_url": "https://www.backerkit.com/blog/feed/",
       "title": "",
-      "saved": 0,
+      "saved": 1,
       "method": "discovered"
     },
     {
@@ -16,6 +16,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 12,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 13,
+  "fetched": "2026-10-10T13:15:00Z"
 }
